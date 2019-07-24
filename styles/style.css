@@ -1,7 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 html {
@@ -38,7 +39,8 @@ html {
 }
 .users .user {
   background-color: #fbfbfb;
-  box-shadow: 0px 9px 9px 0px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 9px 9px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 9px 9px 0px rgba(0, 0, 0, 0.2);
 }
 .users .user img,
 .users .user span {
@@ -52,5 +54,3 @@ html {
 .users .user span {
   color: #212121;
 }
-
-/*# sourceMappingURL=style.css.map */
