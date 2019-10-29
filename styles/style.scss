@@ -7,17 +7,18 @@
 $dark-grey: #212121;
 
 html {
-    font-family: sans-serif;
-    letter-spacing: 1px;
-    background: #eee;
+    font-family: 'Segoe UI', 'Roboto', arial, sans-serif;
+    letter-spacing: .02em;
+    background: #efefef;
 }
 
-.subtitle {
-    margin: 1.75em;
+.title {
+    margin: 1.75em 0 1.25em 0;
     text-align: center;
 
-    font-size: 2.1rem;
+    font-size: 2.2rem;
     color: $dark-grey;
+    font-weight: 500;
 }
 
 .notice {
@@ -25,7 +26,7 @@ html {
     text-align: center;
 
     font-size: 1rem;
-    color: #777;
+    color: #999;
 }
 
 .section {
@@ -43,7 +44,7 @@ html {
 
     .user {
         background-color: #fbfbfb;
-        box-shadow: 0px 9px 9px 0px rgba(0, 0, 0, .2);
+        box-shadow: 0px 7px 9px rgba(0, 0, 0, .175);
 
         img,
         span {

@@ -8,8 +8,8 @@ const randomUserModule = (() => {
 
     async function displayUsers() {
         const response = await fetch(apiUrl);
-        const jsonResponse = await response.json();
-        const authors = await jsonResponse.results;
+        const data = await response.json();
+        const authors = await data.results;
 
         for (const author of authors) {
             const li = document.createElement("li");
@@ -28,6 +28,5 @@ const randomUserModule = (() => {
         }
     }
 
-    displayUsers()
-        .catch((err) => console.error(err));
+    displayUsers().catch(err => console.error(err));
 })();
